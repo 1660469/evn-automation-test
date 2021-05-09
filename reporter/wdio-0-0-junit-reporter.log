@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="function login" timestamp="2021-05-08T11:47:54" time="7.089" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="function login"/>
+      <property name="capabilities" value="chrome.90_0_4430_93.windows"/>
+      <property name="file" value=".\src\test_script\login_tc001.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_93.windows.function login" name="login with the password and username correctly 1" time="7.088">
+      <system-out><![CDATA[
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/url - {"url":"http://uat.evn-solar.com/"}
+RESULT: {"url":"http://uat.evn-solar.com/"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element - {"using":"css selector","value":".MuiButton-label"}
+RESULT: {"using":"css selector","value":".MuiButton-label"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element/606c0c56-9147-4a05-97ce-2a397a0d7c96/click - {}
+RESULT: {}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element - {"using":"css selector","value":"[name=\"username\"]"}
+RESULT: {"using":"css selector","value":"[name=\"username\"]"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9621efc8-cffa-47b6-ba92-60a6bdc74aa3","ELEMENT":"9621efc8-cffa-47b6-ba92-60a6bdc74aa3"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9621efc8-cffa-47b6-ba92-60a6bdc74aa3","ELEMENT":"9621efc8-cffa-47b6-ba92-60a6bdc74aa3"}]}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element - {"using":"css selector","value":"[name=\"username\"]"}
+RESULT: {"using":"css selector","value":"[name=\"username\"]"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element/9621efc8-cffa-47b6-ba92-60a6bdc74aa3/clear - {}
+RESULT: {}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element/9621efc8-cffa-47b6-ba92-60a6bdc74aa3/value - {"text":"nhathauquang@gmail.com"}
+RESULT: {"text":"nhathauquang@gmail.com"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element - {"using":"css selector","value":"[name=\"password\"]"}
+RESULT: {"using":"css selector","value":"[name=\"password\"]"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element/585f8fc2-3352-48be-817f-fb47a7cc7b5e/clear - {}
+RESULT: {}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element/585f8fc2-3352-48be-817f-fb47a7cc7b5e/value - {"text":"Dinosys123"}
+RESULT: {"text":"Dinosys123"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element - {"using":"css selector","value":".MuiButtonBase-root.MuiButton-root.MuiButton-contained.btnLogin.MuiButton-containedSecondary"}
+RESULT: {"using":"css selector","value":".MuiButtonBase-root.MuiButton-root.MuiButton-contained.btnLogin.MuiButton-containedSecondary"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element/5fcc091f-df9e-4b5d-931a-9a77f48cfee1/click - {}
+RESULT: {}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element - {"using":"css selector","value":".MuiTypography-root.titleBanner.MuiTypography-h5.MuiTypography-gutterBottom.MuiTypography-alignCenter"}
+RESULT: {"using":"css selector","value":".MuiTypography-root.titleBanner.MuiTypography-h5.MuiTypography-gutterBottom.MuiTypography-alignCenter"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/elements - {"using":"css selector","value":".MuiTypography-root.titleBanner.MuiTypography-h5.MuiTypography-gutterBottom.MuiTypography-alignCenter"}
+RESULT: {"using":"css selector","value":".MuiTypography-root.titleBanner.MuiTypography-h5.MuiTypography-gutterBottom.MuiTypography-alignCenter"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/elements - {"using":"css selector","value":".MuiTypography-root.titleBanner.MuiTypography-h5.MuiTypography-gutterBottom.MuiTypography-alignCenter"}
+RESULT: {"using":"css selector","value":".MuiTypography-root.titleBanner.MuiTypography-h5.MuiTypography-gutterBottom.MuiTypography-alignCenter"}
+COMMAND: POST /session/e59bb75b6143743a197bd288fbf9c30c/element - {"using":"css selector","value":".MuiTypography-root.titleBanner.MuiTypography-h5.MuiTypography-gutterBottom.MuiTypography-alignCenter"}
+RESULT: {"using":"css selector","value":".MuiTypography-root.titleBanner.MuiTypography-h5.MuiTypography-gutterBottom.MuiTypography-alignCenter"}
+COMMAND: GET /session/e59bb75b6143743a197bd288fbf9c30c/element/04e15ca6-71e8-49f8-9342-1823d88c3b7a/text - {}
+RESULT: {}
+COMMAND: DELETE /session/e59bb75b6143743a197bd288fbf9c30c - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

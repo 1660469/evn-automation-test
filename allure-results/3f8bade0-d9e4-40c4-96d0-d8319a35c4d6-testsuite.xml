@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620394047308' stop='1620394062174'>
+    <name>function login</name>
+    <title>function login</title>
+    <test-cases>
+        <test-case start='1620394047309' status='passed' stop='1620394062173'>
+            <name>login with the empty password and username wrong!</name>
+            <title>login with the empty password and username wrong!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

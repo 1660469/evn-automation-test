@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620396190717' stop='1620396201347'>
+    <name>function login</name>
+    <title>function login</title>
+    <test-cases>
+        <test-case start='1620396190718' status='failed' stop='1620396201345'>
+            <name>login with the password and username correctly</name>
+            <title>login with the password and username correctly</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>err: DAY LA LOI!: expected 'Các đối tượng chính' to include 'Cácoooo đối tượng chính'</message>
+                <stack-trace>AssertionError: err: DAY LA LOI!: expected 'Các đối tượng chính' to include 'Cácoooo đối tượng chính'
+                    at login.veryfyLoginText (D:\autoevn\src\page_Object\login.js:33:31)
+                    at Context.&lt;anonymous> (D:\autoevn\src\test_script\login_tc001.js:14:19)
+                    at Context.executeSync (D:\autoevn\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\autoevn\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
